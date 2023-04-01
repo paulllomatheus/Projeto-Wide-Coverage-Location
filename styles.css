@@ -22,6 +22,13 @@ header {
     cursor: pointer;
 }
 
+.link-header:hover {
+    opacity: 0.8;
+}
+
+.link-header:active {
+    opacity: 0.5;
+}
 button {
     font-weight: 500;
     font-size: 16px;
@@ -35,6 +42,13 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
 .wide-logo {
     width: 595.18px;
     height: 500px;
@@ -74,6 +88,18 @@ p {
     line-height: 27px;
     color: #6FBF44;
     cursor: pointer;
+}
+
+.link-learn:hover {
+    opacity: 0.8;
+}
+
+.link-learn:active {
+    opacity: 0.5;
+}
+
+.link-learn:visited {
+    color: blue;
 }
 
 @media screen and (max-width:660px) {
